@@ -1,0 +1,9 @@
+{
+  "name": "taso",
+  "lastname": "basiladze",
+  "age": 16,
+  "skills": [
+    "JavaScript",
+    "Node.js"
+  ]
+}
