@@ -20,7 +20,7 @@ products.push({
   "inStock": true
 });
 
-fs.writeFileSync("products.json", JSON.stringify(products));
+fs.writeFileSync("products.json", JSON.stringify(products, 2, null));
 
 //3
 fs.readFile("students.json", "utf-8", (error, data) => {
